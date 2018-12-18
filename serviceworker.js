@@ -3,8 +3,6 @@ const filesToCache = [
   '/',
   'index.html',
   'detail.html',
-  'about.html',
-  'contact.html',
   'pages/page-offline.html',
   'pages/page-404.html',
   'css/bootstrap.min.css',
