@@ -15,6 +15,7 @@ const filesToCache = [
   'js/tether.min.js',
   'js/bootstrap.min.js',
   'img/classic-pattern-bg.png',
+  'img/home/1.jpg',
   'img/notfound.png',
   'img/offline.png',
   'manifest.json'
