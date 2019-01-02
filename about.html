@@ -11,6 +11,46 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">                                     
     <link rel="stylesheet" href="css/style.css">                                  
     <link rel="manifest" href="manifest.json">
+
+    <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    /* Style the container/contact section */
+    .container {
+      border-radius: 5px;
+      /*background-color: #f2f2f2; */
+      padding: 10px;
+    }
+
+    /* Create two columns that float next to eachother */
+    .column {
+      float: left;
+      width: 50%;
+      margin-top: 6px;
+      padding: 20px;
+    }
+
+    /* Clear floats after the columns */
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+
+    /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+    @media screen and (max-width: 600px) {
+      .column{
+        width: 100%;
+        margin-top: 0;
+      }
+    }
+    </style>
 </head>
 
     <body>
@@ -66,7 +106,18 @@
                     </div>
                     <div class="col-sm-8 col-sm-pull-4">
                         <h3 class="tm-title bd">About Us</h3>
-                        <div id="about">
+                        
+                        <div class="container">
+                          <div class="row">
+                            <div class="column">
+                                <p>Halo teman semua, selamat datang di website wisata jogja. Website ini kami buat dengan tujuan untuk memberikan informasi tempat wisata di jogja. Selain itu, tujuannya adalah agar dapat memberikan referensi ide berlibur.</p>
+                                <p>Dalam penulisan artikel mungkin terdapat kesalahan, maka dari itu kami meminta masukan berupa kritik dan saran guna membangun website wisata jogja ini :).</p>
+                                <p>Kami juga menerima artikel tempat wisata untuk anda yang ingin berbagi pengalaman wisata di jogja. sehingga dapat membantu orang lain dalam mencari referensi tempat wisata di jogja.</p>
+                            </div>
+                            <div class="column">
+                                <img src="/img/ftr.jpg" alt="" style="max-width:100%">
+                            </div>
+                          </div>
                         </div>
                     </div>
                 </div> <!-- row -->
